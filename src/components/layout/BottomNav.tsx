@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { href: '/', label: 'Asosiy', icon: Heart },
   { href: '/insights', label: 'Tahlillar', icon: TrendingUp },
   { href: '/booking', label: 'Qabul', icon: MapPin },
-  { href: '/baby-mode', label: 'Bolajon AI', icon: Sparkles }, // Shu qator o'zgardi
+  { href: '/baby-mode', label: 'Chaqaloq', icon: Sparkles },
   { href: '/profile', label: 'Profil', icon: User },
 ];
 
