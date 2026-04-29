@@ -6,11 +6,11 @@ import { usePathname } from 'next/navigation';
 import { Heart, TrendingUp, MapPin, Sparkles, User } from 'lucide-react';
 
 const NAV_ITEMS = [
-  { href: '/', label: 'Care', icon: Heart },
-  { href: '/insights', label: 'Insights', icon: TrendingUp },
-  { href: '/booking', label: 'Booking', icon: MapPin },
+  { href: '/', label: 'Asosiy', icon: Heart },
+  { href: '/insights', label: 'Tahlillar', icon: TrendingUp },
+  { href: '/booking', label: 'Qabul', icon: MapPin },
   { href: '/baby-mode', label: 'Baby', icon: Sparkles },
-  { href: '/profile', label: 'EHR', icon: User },
+  { href: '/profile', label: 'Profil', icon: User },
 ];
 
 export function BottomNav() {
