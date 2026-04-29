@@ -38,7 +38,7 @@ export function RiskInlineBanner({ analysis }: Props) {
       text: 'text-rose-900',
       pct: 'text-rose-700',
     },
-  }[topRisk.level === 'low' ? 'medium' : topRisk.level];
+  }[topRisk.level]; // O'zgartirilgan joy shu yerda
 
   return (
     <Link
